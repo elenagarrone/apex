@@ -45,11 +45,11 @@ nav header ul {
   margin-right: 6.8%;
 }
 
-nav header li {
+nav header ul li {
   display: inline;
 }
 
-nav header li a {
+nav header ul li a {
   font-weight: 400;
   color: rgb(248, 152, 41);
   text-align: center;
@@ -57,6 +57,10 @@ nav header li a {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+}
+
+nav header ul li a:hover {
+  color: rgb(123, 123, 123);
 }
 
 #index_icon {
