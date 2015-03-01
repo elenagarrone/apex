@@ -118,7 +118,16 @@ overflow: hidden;
 @media screen and (min-width : 894px) and (max-width : 1295px) {
 
   nav header ul {
-    display: none;
+    margin-right: 16px;
+  }
+
+  nav header ul li a {
+    padding: 7px;
+  }
+
+  nav h1 {
+    font-size: 2.1em;
+    margin-left: 105px;
   }
 
   #logo_and_name {
@@ -127,15 +136,7 @@ overflow: hidden;
   }
 
   #index_icon {
-    display: inline-block;
-    position: relative;
-    float: right;
-    margin: -90px 15px 0px 0px;
-    width: 65px;
-  }
-
-  #index_icon:hover {
-    opacity: 0.7;
+    display: none;
   }
 }
 
