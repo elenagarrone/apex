@@ -1,17 +1,6 @@
-/*nav {
-  position: fixed;
-  -webkit-transform: translateZ(0);
-  top: 0;
-  height: 100px;
-  background-color: white;
-  border-bottom: 1px solid rgb(181, 177, 177);
-  box-shadow: 0px 0px 35px #898989;
-}*/
-
 section {
   margin: 0 auto;
-  position:relative;
-  padding-top:100px;
+  position: relative;
 }
 
 nav {
@@ -25,17 +14,27 @@ nav {
   box-shadow: 0px 0px 35px #898989;
 }
 
-/*#content { 
+#logo_and_name {
   position: relative;
-  background: #fff;
-}*/
+  left: 12.5%;
+  height: 100px;
+  width: 520px;
+  margin: 0px 0px 0px 15px;
+}
 
 nav img {
   position: fixed;
-  top: 8px;
-  left: 11%;
-  transform: translate(-50%);
-  margin: 0px 5px 0px 5px;
+  top: 7.5px;
+}
+
+nav h1 {
+  font-size: 3.2em;
+  font-weight: 300;
+  margin-left: 120px;
+  line-height: 95px;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(123, 123, 123);
 }
 
 #slider { 
@@ -46,8 +45,8 @@ overflow: hidden;
 
 
 #slider figure img { 
-    width: 20%; 
-      max-width: 100%;
+  width: 20%; 
+  max-width: 100%;
   max-height: 100%;
   bottom: 0;
   left: 0;
@@ -56,14 +55,15 @@ overflow: hidden;
   top: 0;
 }
 #slider figure { 
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    font-size: 0;
-    -webkit-animation: 30s slidy infinite;
-    -moz-animation: 30s slidy infinite;
-    animation: 30s slidy infinite;
+  position: fixed;
+  padding-top: 100px;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  font-size: 0;
+  -webkit-animation: 30s slidy infinite;
+  -moz-animation: 30s slidy infinite;
+  animation: 30s slidy infinite;
 }
 
 @keyframes slidy {
