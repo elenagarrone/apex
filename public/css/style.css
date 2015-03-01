@@ -16,7 +16,7 @@ nav {
 
 #logo_and_name {
   position: relative;
-  left: 12.5%;
+  left: 6.5%;
   height: 100px;
   width: 520px;
   margin: 0px 0px 0px 15px;
@@ -28,13 +28,39 @@ nav img {
 }
 
 nav h1 {
-  font-size: 3.2em;
+  font-size: 2.8em;
   font-weight: 300;
   margin-left: 120px;
   line-height: 95px;
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   color: rgb(123, 123, 123);
+}
+
+nav header ul {
+  list-style-type: none;
+  padding: 0;
+  float: right;
+  margin-top: -60px;
+  margin-right: 6.8%;
+}
+
+nav header li {
+  display: inline;
+}
+
+nav header li a {
+  font-weight: 400;
+  color: rgb(248, 152, 41);
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+#index_icon {
+  display: none;
 }
 
 #slider { 
@@ -89,11 +115,76 @@ overflow: hidden;
 100% { left: -400%; }
 }
 
-@media screen and (min-width : 320px) and (max-width : 480px) {
+@media screen and (min-width : 894px) and (max-width : 1295px) {
+
+  nav header ul {
+    display: none;
+  }
+
+  #logo_and_name {
+    width: 465px;
+    left: 0.5%;
+  }
+
+  #index_icon {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: -90px 15px 0px 0px;
+    width: 65px;
+  }
+
+  #index_icon:hover {
+    opacity: 0.7;
+  }
+}
+
+@media screen and (min-width : 400px) and (max-width : 895px) {
+
+  nav header ul {
+    display: none;
+  }
 
   nav h1 {
     font-size: 1.6em;
-    margin-left: 106px;
+    margin-left: 101px;
+    margin-top: 35px;
+    line-height: 26px;
+  }
+
+  #logo_and_name {
+    width: 330px;
+    left: 0px;
+  }
+
+  #index_icon {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: -90px 15px 0px 0px;
+    width: 60px;
+  }
+
+  #index_icon:hover {
+    opacity: 0.7;
+  }
+
+}
+
+@media screen and (min-width : 320px) and (max-width : 399px) {
+
+  nav header ul {
+    display: none;
+  }
+
+  nav img {
+    width: 70px;
+    top: 14.5px;
+  }
+
+  nav h1 {
+    font-size: 1.6em;
+    margin-left: 87px;
     margin-top: 26px;
     line-height: 26px;
   }
@@ -101,6 +192,18 @@ overflow: hidden;
   #logo_and_name {
     width: 250px;
     left: -1.5%;
+  }
+
+  #index_icon {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: -90px 15px 0px 0px;
+    width: 49px;
+  }
+
+  #index_icon:hover {
+    opacity: 0.7;
   }
 
 
