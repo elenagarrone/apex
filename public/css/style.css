@@ -442,6 +442,10 @@ overflow: hidden;
     visibility: hidden;
   }
 
+  #index_nav li:active ul {
+    visibility: visible;
+  }
+
   #index_nav li ul li {
     text-align: center;
     padding: 9px 7px;
