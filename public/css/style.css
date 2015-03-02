@@ -375,7 +375,7 @@ overflow: hidden;
   #index_nav {
     display: inline-block;
     float: right;
-    margin: -90px 15px 0px 0px;
+    margin: -90px 0px 0px 0px;
   }
  
   #index_icon {
@@ -435,6 +435,26 @@ overflow: hidden;
 
   #features ul {
     font-size: 0.8em;
+  }
+
+  #index_nav li ul {
+    margin-top: 27px;
+    visibility: hidden;
+  }
+
+  #index_nav li ul li {
+    text-align: center;
+    padding: 9px 7px;
+    background-color: rgba(250, 250, 250, 0.9);
+  }
+
+  #index_nav li ul li:active {
+    background-color: rgb(250, 250, 250);
+  }
+
+  #index_nav li ul li a {
+    color: rgb(248, 152, 41);
+    text-decoration: none;
   }
 
 }
