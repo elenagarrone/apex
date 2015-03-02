@@ -358,4 +358,46 @@ overflow: hidden;
     padding: 13px;
   }
 
+  #full_content {
+    padding-top: 264px;
+  }
+
+  #overview {
+    padding: 22px 28px;
+  }
+
+  #overview p {
+    font-size: 0.8em;
+    line-height: 20px;
+    }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  #site_plan {
+    height: 200px;
+    background-color: rgb(229, 229, 229);
+  }
+
+  #full_content img {
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  #features {
+    margin-left: 0;
+    height: 316px;
+  }
+
+  #features article {
+    padding: 33px 35px;
+    line-height: 21px;
+  }
+
+  #features ul {
+    font-size: 0.8em;
+  }
+
 }
