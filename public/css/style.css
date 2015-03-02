@@ -1,8 +1,13 @@
+body {
+  height: 2000px;
+  font-family: 'Raleway', sans-serif;
+}
+
 nav{
   height: 100px;
   background-color: white;
   position: fixed;
-  z-index: 10;
+  z-index: 300;
   width: 100%;
   top: 0;
   border-bottom: 1px solid rgb(181, 177, 177);
@@ -20,7 +25,6 @@ nav{
 #start_text {
   display: none;
   z-index: 10;
-  font-family: 'Raleway', sans-serif;
   position: absolute;
   top: 365px;
   left: 50%;
@@ -34,6 +38,24 @@ nav{
   text-align: center;
 }
 
+#overview {
+  z-index: 10;
+  position: absolute;
+  top: 890px;
+  background-color: white;
+}
+
+#overview article {
+  padding: 70px 90px;
+  color: rgb(123, 123, 123);
+}
+
+#overview article h1 {
+  font-size: 1.4em;
+  font-weight: 400;
+  color: rgb(248, 152, 41);
+}
+
 nav img {
   position: fixed;
   top: 7.5px;
@@ -45,7 +67,6 @@ nav h1 {
   margin-left: 120px;
   line-height: 95px;
   display: inline-block;
-  font-family: 'Raleway', sans-serif;
   color: rgb(123, 123, 123);
 }
 
@@ -67,7 +88,6 @@ nav header ul li a {
   text-align: center;
   padding: 17px;
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
 
