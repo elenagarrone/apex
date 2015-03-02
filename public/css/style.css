@@ -29,19 +29,17 @@ nav{
   top: 365px;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2em;
-  color: rgb(119, 119, 119);
-  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 3em;
+  color: rgb(255, 255, 255);
   padding: 25px;
-  border: 1px solid white;
   text-transform: uppercase;
   text-align: center;
 }
 
 #full_content {
-  z-index: 10;
   position: absolute;
-  padding-top: 50%;
+  padding-top: 1000px;
+  width: 100%;
 }
 
 #full_content img {
@@ -52,6 +50,7 @@ nav{
   padding: 70px 90px;
   color: rgb(123, 123, 123);
   background-color: white;
+  text-align: justify;
 }
 
 h1 {
@@ -202,6 +201,13 @@ overflow: hidden;
 
   #index_icon {
     display: none;
+  }
+
+  #start_text {
+  top: 40%;
+  font-size: 2.5em;
+  transform: translate(-50%, -50%);
+  padding: 13px;
   }
 }
 
