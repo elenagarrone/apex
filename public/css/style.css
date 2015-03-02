@@ -98,7 +98,7 @@ nav h1 {
   color: rgb(123, 123, 123);
 }
 
-nav header ul {
+#inline_nav {
   list-style-type: none;
   padding: 0;
   float: right;
@@ -106,11 +106,11 @@ nav header ul {
   margin-right: 6.8%;
 }
 
-nav header ul li {
+#inline_nav li {
   display: inline;
 }
 
-nav header ul li a {
+#inline_nav li a {
   font-weight: 400;
   color: rgb(248, 152, 41);
   text-align: center;
@@ -119,11 +119,11 @@ nav header ul li a {
   text-transform: uppercase;
 }
 
-nav header ul li a:hover {
+#inline_nav li a:hover {
   color: rgb(123, 123, 123);
 }
 
-#index_icon {
+#index_nav {
   display: none;
 }
 
@@ -181,11 +181,11 @@ overflow: hidden;
 
 @media screen and (min-width : 894px) and (max-width : 1295px) {
 
-  nav header ul {
+  #inline_nav {
     margin-right: 16px;
   }
 
-  nav header ul li a {
+  #inline_nav li a {
     padding: 7px;
   }
 
@@ -199,7 +199,7 @@ overflow: hidden;
     left: 0.5%;
   }
 
-  #index_icon {
+  #index_nav {
     display: none;
   }
 
@@ -241,7 +241,14 @@ overflow: hidden;
 
 @media screen and (min-width : 400px) and (max-width : 895px) {
 
-  nav header ul {
+
+  #index_nav {
+    display: inline-block;
+    float: right;
+    margin: -90px 0px 0px 0px;
+  }
+
+  #inline_nav {
     display: none;
   }
 
@@ -258,10 +265,8 @@ overflow: hidden;
   }
 
   #index_icon {
-    display: inline-block;
+    right: -22px;
     position: relative;
-    float: right;
-    margin: -90px 15px 0px 0px;
     width: 60px;
   }
 
@@ -277,7 +282,7 @@ overflow: hidden;
   }
 
   #full_content {
-    padding-top: 560px;
+    padding-top: 306px;
   }
 
   #full_content img {
@@ -288,6 +293,10 @@ overflow: hidden;
 
   h1 {
     font-size: 1.1em;
+  }
+
+  #overview {
+    padding: 40px 52px;
   }
 
   #overview p {
@@ -314,11 +323,35 @@ overflow: hidden;
     background-color: rgb(229, 229, 229);
   }
 
+  #index_nav li ul {
+    margin-top: 27px;
+    visibility: hidden;
+  }
+
+  #index_nav li:hover ul {
+    visibility: visible;
+  }
+
+  #index_nav li ul li {
+    text-align: center;
+    padding: 9px 7px;
+    background-color: rgba(250, 250, 250, 0.9);
+  }
+
+  #index_nav li ul li:hover {
+    background-color: rgb(250, 250, 250);
+  }
+
+  #index_nav li ul li a {
+    color: rgb(248, 152, 41);
+    text-decoration: none;
+  }
+
 }
 
 @media screen and (min-width : 320px) and (max-width : 399px) {
 
-  nav header ul {
+  #inline_nav {
     display: none;
   }
 
@@ -339,11 +372,15 @@ overflow: hidden;
     left: -1.5%;
   }
 
-  #index_icon {
+  #index_nav {
     display: inline-block;
-    position: relative;
     float: right;
     margin: -90px 15px 0px 0px;
+  }
+ 
+  #index_icon {
+    right: -38px;
+    position: relative;
     width: 49px;
   }
 
