@@ -170,6 +170,49 @@ nav h1 {
   padding: 35px 0px;
 }
 
+label {
+  margin-right: 44px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 16%;
+  height: 25px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.27); 
+  resize: none;
+  margin: 5px 0px 10px 0px;
+} 
+
+textarea {
+  width: 26%;
+  height: 200px;
+}
+
+input[type='checkbox'] {
+  margin: 5px 4px 10px 4px;
+}
+
+input[type='submit'] {
+  font-size: 1em;
+  background: #FFFFFF;
+  color: #F89829;
+  width: 26.4%;
+  border: 1px solid #FFFFFF;
+  padding: 7px 0px;
+}
+
+input[type='submit']:hover {
+  background: rgba(255, 255, 255, 0.27);
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+#contact_form {
+  background-color: rgba(248, 152, 41, 0.9);
+  color: white;
+}
+
 #slider { 
 display: block;
 position: relative;
