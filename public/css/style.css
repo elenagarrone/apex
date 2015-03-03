@@ -72,6 +72,9 @@ h1 {
 
 table {
   font-size: 0.9em;
+  display: inline-block;
+  margin: 3%;
+  vertical-align: top;
 }
 
 th {
