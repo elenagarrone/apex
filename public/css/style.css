@@ -147,11 +147,6 @@ nav h1 {
   display: none;
 }
 
-#local_area {
-  float: left;
-  padding-right: 5%;
-}
-
 #slider { 
 display: block;
 position: relative;
@@ -261,6 +256,13 @@ overflow: hidden;
     font-size: 0.8em;
   }
 
+  table {
+    font-size: 68%;
+    display: inline-block;
+    margin: 3%;
+    vertical-align: top;
+  }
+
 }
 
 @media screen and (min-width : 400px) and (max-width : 895px) {
@@ -310,7 +312,8 @@ overflow: hidden;
   }
 
   #full_content img {
-    width: 500px;
+    width: 400px;
+    padding: 32px 0px 0px 0px;
     left: 50%;
     transform: translate(-50%, 0%);
   }
@@ -369,6 +372,13 @@ overflow: hidden;
   #index_nav li ul li a {
     color: rgb(248, 152, 41);
     text-decoration: none;
+  }
+
+  table {
+    font-size: 68%;
+    display: inline-block;
+    margin: 5% 0%;
+    vertical-align: top;
   }
 
 }
@@ -483,6 +493,11 @@ overflow: hidden;
   #index_nav li ul li a {
     color: rgb(248, 152, 41);
     text-decoration: none;
+  }
+
+  table {
+    font-size: 60.4%;;
+    margin: 8% 0% 0% 0%;
   }
 
 }
