@@ -47,7 +47,7 @@ nav{
   position: absolute;
 }
 
-#overview {
+.text_article {
   padding: 70px 90px;
   color: rgb(123, 123, 123);
   background-color: white;
@@ -61,7 +61,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-#overview p {
+.text_article  p {
   line-height: 27px;
 }
 
@@ -127,12 +127,15 @@ nav h1 {
   display: none;
 }
 
+#local_area {
+  width: 50%;
+}
+
 #slider { 
 display: block;
 position: relative;
 overflow: hidden;
 }
-
 
 #slider figure img { 
   width: 20%; 
@@ -295,11 +298,11 @@ overflow: hidden;
     font-size: 1.1em;
   }
 
-  #overview {
+  .text_article {
     padding: 40px 52px;
   }
 
-  #overview p {
+  .text_article  p {
     font-size: 0.8em;
   }
 
@@ -399,11 +402,11 @@ overflow: hidden;
     padding-top: 264px;
   }
 
-  #overview {
+  .text_article {
     padding: 22px 28px;
   }
 
-  #overview p {
+  .text_article  p {
     font-size: 0.8em;
     line-height: 20px;
     }
