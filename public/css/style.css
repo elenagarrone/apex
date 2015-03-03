@@ -66,7 +66,21 @@ h1 {
 }
 
 .text_article  p {
+  margin-bottom: 20px;
   line-height: 27px;
+}
+
+table {
+  font-size: 0.9em;
+}
+
+th {
+  padding-bottom: 10px;
+  font-size: 1.1em;
+}
+
+td {
+  padding: 4px 35px 4px 0px;
 }
 
 #features {
@@ -133,7 +147,6 @@ nav h1 {
 
 #local_area {
   float: left;
-  width: 45%;
   padding-right: 5%;
 }
 
