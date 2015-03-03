@@ -170,7 +170,7 @@ nav h1 {
   padding: 35px 0px;
 }
 
-form {
+#contact_form {
   display: inline-block;
 }
 
@@ -217,7 +217,7 @@ input[type='submit']:hover {
 }
 
 
-#contact_form {
+#form_and_about {
   background-color: rgba(248, 152, 41, 0.9);
   color: white;
 }
