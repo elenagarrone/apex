@@ -66,12 +66,11 @@ h1 {
 }
 
 .text_article  p {
-  margin-bottom: 20px;
   line-height: 27px;
 }
 
 table {
-  font-size: 0.9em;
+  font-size: 79%;
   display: inline-block;
   margin: 3%;
   vertical-align: top;
