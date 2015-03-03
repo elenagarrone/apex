@@ -170,12 +170,21 @@ nav h1 {
   padding: 35px 0px;
 }
 
+form {
+  display: inline-block;
+}
+
+#contact_form h1 {
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);;
+}
+
 label {
   margin-right: 44px;
 }
 
 input[type="text"], input[type="email"], textarea {
-  width: 16%;
+  width: 65%;
   height: 25px;
   border: 1px solid white;
   background-color: rgba(255, 255, 255, 0.27); 
@@ -184,7 +193,7 @@ input[type="text"], input[type="email"], textarea {
 } 
 
 textarea {
-  width: 26%;
+  width: 90%;
   height: 200px;
 }
 
@@ -196,7 +205,7 @@ input[type='submit'] {
   font-size: 1em;
   background: #FFFFFF;
   color: #F89829;
-  width: 26.4%;
+  width: 91.6%;
   border: 1px solid #FFFFFF;
   padding: 7px 0px;
 }
