@@ -233,6 +233,18 @@ input[type='submit']:hover {
 
 #about_us h1 {
   color: white;
+  margin-bottom: 36px;
+}
+
+#about_us p {
+  line-height: 27px;
+}
+
+#about_us img {
+  position: relative;
+  width: 60%;
+  left: 18%;
+  padding: 4% 0%;
 }
 
 #slider { 
@@ -325,8 +337,14 @@ overflow: hidden;
     padding-top: 52%;
   }
 
-  #full_content img {
+  #full_content #site_plan img {
     width: 500px;
+  }
+
+  #full_content #about_us img {
+    width: 99%;
+    left: 1%;
+    padding: 19% 0%;
   }
 
   #features {
@@ -354,6 +372,15 @@ overflow: hidden;
   #tube_map img {
     width: 700px;
   }
+
+  #about_us {
+    padding: 75px 75px 75px 45px;
+  }
+
+  #about_us p {
+    font-size: 0.9em;
+  }
+
 }
 
 @media screen and (min-width : 400px) and (max-width : 894px) {
@@ -407,6 +434,12 @@ overflow: hidden;
     padding: 32px 0px 0px 0px;
     left: 50%;
     transform: translate(-50%, 0%);
+  }
+
+   #full_content #site_plan img {
+    left: 50%;
+    transform: translate(-50%);
+    height: 333px;
   }
 
   h1 {
@@ -475,6 +508,10 @@ overflow: hidden;
   #tube_map img {
     width: 409px;
     padding: 32px 0px 0px 0px;
+  }
+
+  #about_us img#cars {
+    width: 68%;
   }
 
 }
