@@ -298,6 +298,38 @@ overflow: hidden;
 100% { left: -400%; }
 }
 
+footer {
+  padding: 25px;
+  background-color: white;
+  text-align: center;
+  margin-top: -3px;
+  line-height: 21px;
+  font-size: 0.9em;
+  color: grey;
+}
+
+footer h1 {
+  display: inline-block;
+  font-size: 2em;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+footer h2 {
+  display: inline;
+  color: rgb(123, 123, 123);
+  font-size: 2em;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(248, 152, 41);
+}
+
+footer a:hover {
+  color: rgb(123, 123, 123);
+}
+
 @media screen and (min-width : 895px) and (max-width : 1295px) {
 
   #inline_nav {
@@ -510,8 +542,31 @@ overflow: hidden;
     padding: 32px 0px 0px 0px;
   }
 
-  #about_us img#cars {
+  #about_us img {
     width: 68%;
+  }
+
+  #about_us {
+    padding: 75px 75px 75px 45px;
+    min-width: 206px;
+  }
+
+  #contact_form {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  #about_us p {
+    font-size: 0.8em;
+  }
+
+  #about_us h1 {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    font-size: 0.75em;
   }
 
 }
