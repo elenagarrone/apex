@@ -109,7 +109,7 @@ overflow: hidden;
 100% { left: -400%; }
 }
 
-@-webkit-keyframes slidy /* Safari and Chrome */
+@-webkit-keyframes slidy
 {
 20% { left: 0%; }
 25% { left: -100%; }
@@ -121,6 +121,18 @@ overflow: hidden;
 100% { left: -400%; }
 }
 
+/*=====================
+  SECTION#FULL_CONTENT
+=====================*/
+
+.text_article {
+  padding: 70px 90px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  text-align: justify;
+}
+
+.text_article  p, #about_us p, #features article  { line-height: 27px; }
 
 
 #logo_and_name {
@@ -140,13 +152,6 @@ overflow: hidden;
   position: absolute;
 }
 
-.text_article {
-  padding: 70px 90px;
-  color: rgb(123, 123, 123);
-  background-color: white;
-  text-align: justify;
-}
-
 #area_and_transport {
   padding: 70px 90px 145px 90px;
 }
@@ -156,10 +161,6 @@ h1 {
   font-weight: 400;
   color: rgb(248, 152, 41);
   margin-bottom: 10px;
-}
-
-.text_article  p {
-  line-height: 27px;
 }
 
 table {
@@ -186,7 +187,6 @@ td {
 
 #features article {
   padding: 14% 30%;
-  line-height: 25px;
 }
 
 #features article h1 {
@@ -285,10 +285,10 @@ input[type='submit']:hover {
   color: white;
   margin-bottom: 36px;
 }
-
+/*
 #about_us p {
   line-height: 27px;
-}
+}*/
 
 #about_us img {
   position: relative;
