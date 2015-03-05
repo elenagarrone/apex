@@ -201,6 +201,8 @@ td { padding: 4px 35px 4px 0px; }
 
 #tube_map img#distance_tube { padding: 35px 0px;  }
 
+#form_and_about { display: inline-block; }
+
 #contact_form {
   float: left;
   padding: 75px;
@@ -290,55 +292,38 @@ footer a:hover {
 
 @media screen and (min-width : 895px) and (max-width : 1295px) {
 
-  #inline_nav {
-    margin-right: 16px;
-  }
+/*====================
+        HEADER
+====================*/
 
-  #inline_nav li a {
-    padding: 7px;
-  }
+  #logo_and_name { left: 0.5%; }
 
   header h1 {
     font-size: 2.1em;
     margin-left: 105px;
   }
 
-  #logo_and_name {
-    width: 465px;
-    left: 0.5%;
-  }
+  #index_nav { display: none; }
 
-  #index_nav {
-    display: none;
-  }
+  #inline_nav { margin-right: 16px; }
 
-  #start_text {
-    top: 35%;
-    font-size: 2.5em;
-    transform: translate(-50%, -50%);
-    padding: 13px;
-  }
+  #inline_nav li a { padding: 7px; }
 
-  #start_text h2 {
-   font-size: 0.9em;
-  }
+/*====================
+SECTION#SLIDER_CONTENT
+====================*/
 
-  #full_content {
-    padding-top: 52%;
-  }
+  #start_text { font-size: 2.1em; }
 
-  #full_content #site_plan img {
-    width: 500px;
-  }
+/*=====================
+  SECTION#FULL_CONTENT
+=====================*/
 
-  #full_content #about_us img {
-    width: 99%;
-    left: 1%;
-    padding: 19% 0%;
-  }
+  #full_content { padding-top: 62%; }
+
+  #site_plan img { width: 500px; }
 
   #features {
-    background-color: rgba(248, 152, 41, 0.9);
     margin-left: 500px;
     height: 333px;
   }
@@ -348,28 +333,21 @@ footer a:hover {
     line-height: 21px;
   }
 
-  #features ul {
-    font-size: 0.8em;
+  #features ul { font-size: 0.9em; }
+
+  table { font-size: 78%; }
+
+  #tube_map img { width: 700px; }
+
+  #about_us img {
+    width: 99%;
+    left: 1%;
+    padding: 19% 0%;
   }
 
-  table {
-    font-size: 68%;
-    display: inline-block;
-    margin: 3%;
-    vertical-align: top;
-  }
+  #about_us { padding: 75px 75px 75px 45px; }
 
-  #tube_map img {
-    width: 700px;
-  }
-
-  #about_us {
-    padding: 75px 75px 75px 45px;
-  }
-
-  #about_us p {
-    font-size: 0.9em;
-  }
+  #about_us p { font-size: 0.9em; }
 
 }
 
