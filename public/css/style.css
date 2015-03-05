@@ -3,7 +3,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-nav {
+header {
   height: 100px;
   background-color: white;
   position: fixed;
@@ -13,12 +13,16 @@ nav {
   box-shadow: 0px 0px 35px #888888;
 }
 
-nav h1 {
+header h1 {
   font-size: 2.8em;
   margin-left: 120px;
   line-height: 95px;
    display: inline-block; 
   color: rgb(0, 0, 0);
+}
+
+nav {
+  position: relative;
 }
 
 #logo_and_name {
@@ -110,7 +114,7 @@ td {
   color: rgb(61, 61, 61);
 }
 
-nav img {
+header img {
   position: fixed;
   top: 7.5px;
 }
@@ -337,7 +341,7 @@ footer a:hover {
     padding: 7px;
   }
 
-  nav h1 {
+  header h1 {
     font-size: 2.1em;
     margin-left: 105px;
   }
@@ -425,7 +429,7 @@ footer a:hover {
     display: none;
   }
 
-  nav h1 {
+  header h1 {
     font-size: 1.6em;
     margin-left: 101px;
     margin-top: 35px;
@@ -574,12 +578,12 @@ footer a:hover {
     display: none;
   }
 
-  nav img {
+  header img {
     width: 70px;
     top: 14.5px;
   }
 
-  nav h1 {
+  header h1 {
     font-size: 1.6em;
     margin-left: 87px;
     margin-top: 26px;
