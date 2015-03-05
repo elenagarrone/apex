@@ -193,18 +193,14 @@ td { padding: 4px 35px 4px 0px; }
   text-align: center;
 }
 
-
-
 #tube_map img {
   padding: 0px 50px;
-  display: inline-block;
-  position: relative;
   vertical-align: middle;
 }
 
-#tube_map img#distance_tube {
-  padding: 35px 0px;
-}
+#tube_map img#distance_tube { padding: 35px 0px; }
+
+
 
 #contact_form {
   display: inline-block;
