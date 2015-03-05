@@ -73,9 +73,9 @@ SECTION#SLIDER_CONTENT
 }
 
 #slider { 
-display: block;
-position: relative;
-overflow: hidden;
+  display: block;
+  position: relative;
+  overflow: hidden;
 }
 
 #slider figure img { 
@@ -99,26 +99,25 @@ overflow: hidden;
 }
 
 @keyframes slidy {
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
 }
 
-@-webkit-keyframes slidy
-{
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+@-webkit-keyframes slidy {
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
 }
 
 /*=====================
@@ -134,22 +133,41 @@ overflow: hidden;
 
 .text_article  p, #about_us p, #features article  { line-height: 27px; }
 
-
-#logo_and_name {
-  position: relative;
-  left: 6.5%;
-  height: 100px;
-  margin: 0px 0px 0px 15px;
-}
-
 #full_content {
   position: absolute;
   padding-top: 1000px;
   width: 100%;
 }
 
-#full_content img {
-  position: absolute;
+#site_plan img { position: absolute; }
+
+#features {
+  margin-left: 743px;
+  height: 495px;
+}
+
+#features article { padding: 14% 30%; }
+
+.orange_article {
+  background-color: rgba(248, 152, 41, 0.9);
+  color: rgb(250, 250, 250);
+}
+
+#features article h1 {
+  color: rgb(250, 250, 250)
+}
+
+#features article p {
+  color: rgb(61, 61, 61);
+}
+
+
+
+#logo_and_name {
+  position: relative;
+  left: 6.5%;
+  height: 100px;
+  margin: 0px 0px 0px 15px;
 }
 
 #area_and_transport {
@@ -177,24 +195,6 @@ th {
 
 td {
   padding: 4px 35px 4px 0px;
-}
-
-#features {
-  background-color: rgba(248, 152, 41, 0.9);
-  margin-left: 743px;
-  height: 495px;
-}
-
-#features article {
-  padding: 14% 30%;
-}
-
-#features article h1 {
-  color: rgb(250, 250, 250)
-}
-
-#features article p {
-  color: rgb(61, 61, 61);
 }
 
 #transport {
@@ -270,8 +270,8 @@ input[type='submit']:hover {
 
 
 #form_and_about {
-  background-color: rgba(248, 152, 41, 0.9);
-  color: white;
+/*  background-color: rgba(248, 152, 41, 0.9);
+  color: white;*/
   display: inline-block;
 }
 
