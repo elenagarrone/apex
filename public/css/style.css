@@ -167,7 +167,7 @@ SECTION#SLIDER_CONTENT
   color: rgb(250, 250, 250);
 }
 
-#features article h1 { color: rgb(250, 250, 250); }
+#features article h1, #contact_form h1, #about_us h1 { color: rgb(250, 250, 250); }
 
 table {
   font-size: 79%;
@@ -184,8 +184,8 @@ th {
 td { padding: 4px 35px 4px 0px; }
 
 #transport {
-  color: white;
-  background-color: rgb(123, 123, 123);
+  color: black;
+  background-color: rgb(229, 229, 229);
 }
 
 #tube_map {
@@ -198,24 +198,16 @@ td { padding: 4px 35px 4px 0px; }
   vertical-align: middle;
 }
 
-#tube_map img#distance_tube { padding: 35px 0px; }
-
-
+#tube_map img#distance_tube { padding: 35px 0px;  }
 
 #contact_form {
-  display: inline-block;
   float: left;
   padding: 75px;
 }
 
-#contact_form h1 {
-  margin-bottom: 40px;
-  color: rgb(255, 255, 255);;
-}
+#contact_form h1 { margin-bottom: 40px; }
 
-label {
-  margin-right: 44px;
-}
+label { margin-right: 44px; }
 
 input[type="text"], input[type="email"], textarea {
   width: 65%;
@@ -231,9 +223,7 @@ textarea {
   height: 200px;
 }
 
-input[type='checkbox'] {
-  margin: 5px 4px 10px 4px;
-}
+input[type='checkbox'] { margin: 5px 4px 10px 4px; }
 
 input[type='submit'] {
   font-size: 1em;
@@ -250,27 +240,13 @@ input[type='submit']:hover {
   cursor: pointer;
 }
 
-
-#form_and_about {
-/*  background-color: rgba(248, 152, 41, 0.9);
-  color: white;*/
-  display: inline-block;
-}
-
 #about_us {
   display: table;
   padding: 75px;
   text-align: justify;
 }
 
-#about_us h1 {
-  color: white;
-  margin-bottom: 36px;
-}
-/*
-#about_us p {
-  line-height: 27px;
-}*/
+#about_us h1 { margin-bottom: 36px; }
 
 #about_us img {
   position: relative;
@@ -286,7 +262,6 @@ footer {
   margin-top: -3px;
   line-height: 21px;
   font-size: 0.9em;
-  color: grey;
 }
 
 footer h1 {
@@ -298,7 +273,6 @@ footer h1 {
 
 footer h2 {
   display: inline;
-  color: rgb(123, 123, 123);
   font-size: 2em;
 }
 
@@ -308,8 +282,10 @@ footer a {
 }
 
 footer a:hover {
-  color: rgb(123, 123, 123);
+  color: rgb(0, 0, 0);
 }
+
+
 
 @media screen and (min-width : 895px) and (max-width : 1295px) {
 
